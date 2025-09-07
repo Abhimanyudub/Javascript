@@ -11,7 +11,12 @@ accountPassword = "6789";
 accountCity = "bangaluru";
 
 
+/*
+prefer not to use var
+beacuse of issue in block scope and functional scope
 
+
+*/
 
 console.log(accountId);
 console.table([accountEmail,accountPassword,accountCity]);
